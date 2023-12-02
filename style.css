@@ -97,3 +97,52 @@ button{
     gap: 10px;
     margin-right: 20px;
 }
+
+/* main section */
+
+.wrapper{
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+}
+.wrapper section{
+    max-width: 1250px;
+    position: relative;
+    top: 86px;
+}
+.banner img{
+    width: 102%;
+    
+   
+}
+.banner-2{
+
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+    margin: 0 14px;
+
+}
+.banner-2::-webkit-scrollbar{
+    display: none;
+}
+.banner-img{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.banner-2 .banner-img img{
+    height: 195px;
+    width: 335px;
+    margin: 0px 15px 0px 0px;
+}
+.categories{
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    
+}
+.section-3-img img{
+    width: 100%;
+    display: inline;
+}
+    
